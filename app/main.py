@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-import os
+from decouple import config
 import psycopg2
 
 app = Flask(__name__)
@@ -9,11 +9,11 @@ app = Flask(__name__)
 def main():
     # get connection
     conn_pg = psycopg2.connect(
-        host=os.environ.get('MB_DB_HOST'),
-        database=os.environ.get('MB_DB_DBNAME'),
-        user=os.environ.get('MB_DB_USER'),
-        password=os.environ.get('MB_DB_PASS'),
-        port=int(os.environ.get('MB_DB_PORT'))
+        host=config('MB_DB_HOST'),
+        database=config('MB_DB_DBNAME'),
+        user=config('MB_DB_USER'),
+        password=config('MB_DB_PASS'),
+        port=int(config('MB_DB_PORT'))
     )
     cur = conn_pg.cursor()
 
