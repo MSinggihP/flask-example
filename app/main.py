@@ -4,7 +4,6 @@ import psycopg2
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def main():
     # get connection
@@ -18,6 +17,10 @@ def main():
     cur = conn_pg.cursor()
 
     return jsonify({"status": 200, "db":"connected"})
+
+@app.route("/health")
+def health():
+    return jsonify({"status": 'oke'})
 
 
 if __name__ == "__main__":
