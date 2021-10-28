@@ -18,10 +18,6 @@ def main():
 
     return jsonify({"status": 200, "db":"connected"})
 
-@app.route("/health")
-def health():
-    return jsonify({"status": 'oke'})
-
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
