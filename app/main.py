@@ -16,7 +16,7 @@ def main():
     )
     cur = conn_pg.cursor()
 
-    return jsonify({"status": 200, "db":"connected"})
+    return jsonify({"status": 200, "db":"connected okee"})
 
 @app.route("/health")
 def health():
