@@ -3,7 +3,7 @@
 Flask example project
 
 # Run without docker
-Jika belum ada database postgres silakan run docker-compose dibawah ini:
+Untuk menjalankan service ini kita harus mempunya service database postgres, Jika belum ada database postgres silakan run docker-compose dibawah ini:
 ```
 version: '2'
 services:
@@ -23,7 +23,7 @@ volumes:
         external: true
 ```
 jangan lupa create volume postgres_data:
-```docker volume create <postgres_data>```
+```docker volume create postgres_data```
 
 and next step, you must create file with name `.env`, copy and paste code:
 ```
