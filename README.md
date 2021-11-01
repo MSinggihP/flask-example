@@ -25,7 +25,7 @@ volumes:
 jangan lupa create volume postgres_data:
 ```docker volume create postgres_data```
 
-and next step, you must create file with name `.env`, copy and paste code:
+and next step, you must create file with name `.env`, copy and paste code (file sejajar dengan folder app, lihat gambar dibawah):
 ```
 MB_DB_HOST='your_localhost'
 MB_DB_DBNAME='your_dbname'
