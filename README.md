@@ -33,6 +33,7 @@ MB_DB_USER='your_user'
 MB_DB_PASS='your_password'
 MB_DB_PORT='your_port'
 ```
+[![Screenshot-from-2021-11-01-15-57-04.png](https://i.postimg.cc/BvFhfW1s/Screenshot-from-2021-11-01-15-57-04.png)](https://postimg.cc/SXyLcvrt)
 
 ## Run Ubuntu or Mac
 ```
