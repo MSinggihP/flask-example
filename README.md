@@ -1,6 +1,6 @@
 # Flask Example
 
-Flask example projects
+Flask example projects flask
 
 # Run without docker
 Untuk menjalankan service ini kita harus mempunya service database postgres, Jika belum ada database postgres silakan run docker-compose dibawah ini:
