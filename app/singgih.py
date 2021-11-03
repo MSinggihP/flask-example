@@ -1,2 +1,2 @@
 def tugas():
-    print('Tugas selesai dilaksanakan !')
+    print('Tugas selesai dilaksanakan mas singgih')
