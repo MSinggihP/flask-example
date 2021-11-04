@@ -1,2 +1,2 @@
 def tugas():
-    print("Tugas maulfi alfansuri v1 sudah selesai")
+    print("Tugas maulfi alfansuri, pull request chapter 10")
